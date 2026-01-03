@@ -61,32 +61,43 @@ This project combines **data preprocessing, machine learning, and interactive vi
 ---
 
 ## 🗂 Project Structure
+
+```bash
 titanic-survival-prediction/
 │
-├── app.py                      # Main Streamlit application
-├── train.py                    # Model training script
-├── evaluate.py                 # Model evaluation script
+├── app.py                  # Main Streamlit application
+├── train.py                # Model training script
+├── evaluate.py             # Model evaluation script
+│
 ├── src/
-│   └── preprocessing.py        # Data cleaning & feature engineering
+│   └── preprocessing.py   # Data cleaning & feature engineering
 │
 ├── data/
-│   └── train.csv               # Titanic dataset
+│   └── train.csv           # Titanic dataset
 │
 ├── models/
-│   └── titanic_model.pkl       # Trained ML model
+│   └── titanic_model.pkl   # Trained ML model
 │
-├── requirements.txt            # Python dependencies
-├── README.md                   # Project documentation
+├── requirements.txt        # Python dependencies
+└── README.md               # Project documentation
 
-⚙️ Installation & Setup
-1️⃣ Clone the repository
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+```bash
 git clone https://github.com/your-username/titanic-survival-prediction.git
 cd titanic-survival-prediction
 
 2️⃣ Create a virtual environment (optional but recommended)
 python -m venv venv
-source venv/bin/activate     # macOS/Linux
-venv\Scripts\activate        # Windows
+
+Activate the environment:
+
+# macOS / Linux
+source venv/bin/activate
+
+# Windows
+venv\Scripts\activate
 
 3️⃣ Install dependencies
 pip install -r requirements.txt
