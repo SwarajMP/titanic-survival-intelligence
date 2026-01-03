@@ -80,16 +80,16 @@ titanic-survival-prediction/
 │
 ├── requirements.txt        # Python dependencies
 └── README.md               # Project documentation
+```
 
-## ⚙️ Installation & Setup
-
-### 1️⃣ Clone the repository
-```bash
+⚙️ Installation & Setup
+1️⃣ Clone the repository
 git clone https://github.com/your-username/titanic-survival-prediction.git
 cd titanic-survival-prediction
 
 2️⃣ Create a virtual environment (optional but recommended)
 python -m venv venv
+
 
 Activate the environment:
 
@@ -105,5 +105,6 @@ pip install -r requirements.txt
 ▶️ Run the Application
 streamlit run app.py
 
+
 Then open your browser at:
-http://localhost:8501
+👉 http://localhost:8501
